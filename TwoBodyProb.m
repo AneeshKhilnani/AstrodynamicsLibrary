@@ -27,7 +27,7 @@ function [XDOT] = TwoBodyProb(t,X,mu)
 %
 % Author: Aneesh Vinod Khilnani
 % Email: akhilnan@purdue.edu
-% Last updated: 02/13/2023
+% Last updated: 02/14/2023
 
 pos=X(1:3);
 vel=X(4:6);
