@@ -1,7 +1,7 @@
 function [BodyTrans]=Euler_Sequence_313(RAAN,THETA,INC)
-%% 3-1-3 Euler Sequence
-% Euler_Sequence_313 is a direction cosine matrix to transform coordinates
-% in the Hill Frame to the Geocentric-Equatorial Frame (ECI equitorial)
+% Euler_Sequence_313 computes a direction cosine matrix (DCM) to transform
+% coordinates in the Hill Frame to the Geocentric-Equatorial Frame (ECI) 
+% Equatorial 
 %
 % Required
 % --------
@@ -13,6 +13,11 @@ function [BodyTrans]=Euler_Sequence_313(RAAN,THETA,INC)
 % INC: scalar
 %    orbit inclination: angle between orbit plane and fundamental plane
 %    [rad]
+%
+% Returns
+% --------
+% BodyTrans: [3x3]
+%   DCM to transform coordinate schemes (hill to equitorial)
 %
 %
 % Author: Aneesh Vinod Khilnani
