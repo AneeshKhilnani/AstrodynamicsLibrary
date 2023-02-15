@@ -15,7 +15,7 @@ function [EA] = KeplersEquationSoln(MA,e,EA0)
 %
 % Returns
 % --------
-% EA: [3x3]
+% EA: scalar
 %   Approximate Eccentric Anomaly [rad]
 %
 %
