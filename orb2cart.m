@@ -9,7 +9,7 @@ function [r,v] = orb2cart(SMA,e,INC,RAAN,AOP,TA,mu)
 % e: scalar
 %    eccentricity of orbit [nd]
 % INC: scalar
-%    orbit INClination: angle between orbit plane and fundamental plane
+%    orbit Inclination: angle between orbit plane and fundamental plane
 %    [rad]
 % RAAN: scalar
 %    Right ascension of the ascending node [rad]
