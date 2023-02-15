@@ -1,7 +1,6 @@
 function [BodyTrans]=Euler_Sequence_313(RAAN,THETA,INC)
 % Euler_Sequence_313 computes a direction cosine matrix (DCM) to transform
 % coordinates in the Hill Frame to the Geocentric-Equatorial Frame (ECI) 
-% Equatorial 
 %
 % Required
 % --------
